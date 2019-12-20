@@ -34,6 +34,8 @@ public class Swagger2Config {
                 .build()
                 .securitySchemes(securitySchemes())
                 .securityContexts(securityContexts());
+
+
     }
 
     private ApiInfo apiInfo() {
